@@ -6,11 +6,15 @@
 
 
 // =======================
-// COMMAND USED
+// COMMAND USED  |  GIT
 // =======================
 // git checkout (#hash)					-> checking out to particular hash but put head in detached mode
-// git checkout HEAD						->
-// git checkout HEAD	path			-> 
+// git checkout HEAD						-> "
+// git switch - 									->	shorthand to go bach to last branch while in detached HEAD mode
+//																				restore the working directory
+
+// git checkout (#hash)	path		-> bring the old changes to mentioned file but NO detached HEAD
+// git reset --hard								-> this bring working directory to the last commit
 
 // git reset --hard HEAD
 // git reset --hard (#hash) 		-> 	will reset the working directory to particular commit
@@ -18,10 +22,21 @@
 // git reset --hard HEAD~n   		-> 	where n refer to parent commit
 // git reset --hard HEAD@{n}  	-> 	where n refer to reflog HEAD
 
-// git reset HEAD		  					-> 	commit history are restored 
+// git reset HEAD		  					-> 	commit history are restored
 // 																		but working directory changes are not lost
 
-// git switch - 								->	shorthand to go bach to last branch while in detached HEAD mode
-
-// git config --global alias.graph "log --oneline --all --graph"			
+// git config --global alias.graph "log --oneline --all --graph"
 //															->	setting alias
+
+
+
+
+/// =======================
+// COMMAND USED  |  BASH
+// =======================
+
+// history										-> to get history
+// history <n>								-> to get limited number of history
+// history | grep <search_string>
+//														-> to get limited number of history
+// !<command_number>					-> to used the command 
