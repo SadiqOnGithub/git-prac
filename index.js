@@ -8,7 +8,10 @@
 // =======================
 // COMMAND USED
 // =======================
-// git checkout (#hash)					->	checking out
+// git checkout (#hash)					-> checking out to particular hash but put head in detached mode
+// git checkout HEAD						->
+// git checkout HEAD	path			-> 
+
 // git reset --hard HEAD
 // git reset --hard (#hash) 		-> 	will reset the working directory to particular commit
 //																		and commit history are also restored to that particular
