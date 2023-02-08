@@ -13,4 +13,5 @@
 
 // git switch - 								->	shorthand to go bach to last branch while in detached HEAD mode
 
-// git config --global alias.graph "log --oneline --all --graph"			-> setting alias
+// git config --global alias.graph "log --oneline --all --graph"			
+//															->	setting alias
