@@ -25,6 +25,11 @@
 // git reset HEAD		  					-> 	commit history are restored
 // 																		but working directory changes are not lost
 
+// git reset HEAD               ->  changes unstaged from working directory for all files
+// git restore --staged .       ->  changes unstaged from working directory for all files
+// git restore --staged <file>  ->  changes unstaged from working directory for a particular file
+
+
 // git config --global alias.graph "log --oneline --all --graph"
 //															->	setting alias
 
