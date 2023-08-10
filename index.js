@@ -40,6 +40,9 @@
 // git push -u [origin/remote name you want to give] [branch you want to push]
 //                              -> settign default remote location for a branch
 
+// git push [remote repo name] -d [branch you want to delete]
+//                              -> remove a branch form remote repo
+
 
 /// =======================
 // COMMAND USED  |  BASH
