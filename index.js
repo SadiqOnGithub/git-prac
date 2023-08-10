@@ -28,7 +28,11 @@
 // git config --global alias.graph "log --oneline --all --graph"
 //															->	setting alias
 
+// git remote add [origin/remote name you want to give] [link to remote repo]
+//                              -> adding origin to local repo
 
+// git push -u [origin/remote name you want to give] [branch you want to push]
+//                              -> settign default remote location for a branch
 
 
 /// =======================
