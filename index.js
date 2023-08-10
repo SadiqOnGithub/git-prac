@@ -29,6 +29,7 @@
 // git restore --staged .       ->  changes unstaged from working directory for all files
 // git restore --staged <file>  ->  changes unstaged from working directory for a particular file
 
+// git commit --amend           ->  edit last commit msg
 
 // git config --global alias.graph "log --oneline --all --graph"
 //															->	setting alias
