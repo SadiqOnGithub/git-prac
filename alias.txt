@@ -1,16 +1,24 @@
-alias.g log --oneline --all --graph
-alias.a add
-alias.c commit -m
-alias.s status
-alias.sv status -v
-alias.svv status -v -v
-alias.ch checkout
-alias.b branch
-alias.aa add .
-alias.ac commit -am
-alias.p push
-alias.us restore --staged
-alias.usa restore --staged .
-alias.gl log --oneline --graph
-alias.r remote
-alias.ali config --get-regexp alias
+[alias]
+	ali = config --get-regexp alias
+	g = log --oneline --graph
+	ga = log --oneline --all --graph
+	a = add
+	aa = add .
+	# add & commit
+	ac = commit -am
+	c = commit -m
+	# commit again
+	cag = commit --amend
+	# commit again no-edit
+	cagn = commit --amend --no-edit
+	s = status
+	sv = status -v
+	svv = status -v -v
+	ch = checkout
+	b = branch
+	p = push
+	r = remote
+	# unstage
+	us = restore --staged
+	# unstage
+	usa = restore --staged .
